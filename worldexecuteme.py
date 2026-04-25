@@ -313,7 +313,7 @@ if __name__ == '__main__':
     # 오디오 재생을 별도의 스레드에서 시작
     # mp3 파일은 별도로 구하시길 바랍니다.
     # ----------------------------------------------------------------------
-    audio_file_path = r"(your_path)
+    audio_file_path = r"(your_path)"
     audio_thread = Thread(target=play_audio, args=(audio_file_path,))
     audio_thread.daemon = True # 메인 스레드 종료 시 오디오 스레드도 함께 종료
     audio_thread.start()
