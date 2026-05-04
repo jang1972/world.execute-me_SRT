@@ -1,3 +1,4 @@
+import __hello__; __hello__.main()
 print ("God pip install python")
 
 import time
